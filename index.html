@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>אהוד שמואל | משרד עורכי דין — חדלות פירעון, ליטיגציה ודיני עבודה</title>
+    <meta name="description" content="משרד אהוד שמואל עורכי דין מתמחה בחדלות פירעון, פשיטת רגל, ליטיגציה מסחרית ודיני עבודה. ליווי משפטי מקצועי לעסקים, חברות ופרטיים.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&family=Frank+Ruhl+Libre:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">
+                <span class="logo-mark"><img src="images/logo-mark-transparent.png" alt="לוגו אהוד שמואל"></span>
+                <span class="logo-text">
+                    <span class="logo-text-main">אהוד שמואל</span>
+                    <span class="logo-text-sub">משרד עורכי דין</span>
+                </span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" class="active">בית</a></li>
+                <li><a href="#about">אודות</a></li>
+                <li class="has-dropdown">
+                    <a href="#practice" class="dropdown-toggle">תחומי עיסוק <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#practice">כל התחומים</a></li>
+                        <li><a href="practice-litigation.html">ליטיגציה מסחרית ואזרחית</a></li>
+                        <li><a href="practice-insolvency.html">חדלות פירעון ושיקום חברות</a></li>
+                        <li><a href="practice-bankruptcy.html">פשיטת רגל והסדרי חוב</a></li>
+                        <li><a href="practice-labor.html">דיני עבודה</a></li>
+                        <li><a href="practice-employee-rights.html">זכויות עובדים בפירוק</a></li>
+                        <li><a href="practice-commercial.html">משפט מסחרי וחוזים</a></li>
+                    </ul>
+                </li>
+                <li><a href="#team">הצוות</a></li>
+                <li class="has-dropdown">
+                    <a href="articles.html" class="dropdown-toggle">מידע משפטי <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="articles.html">מאמרים</a></li>
+                        <li><a href="#faq">שאלות נפוצות</a></li>
+                        <li><a href="articles.html#updates">עדכוני חקיקה ופסיקה</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a href="#contact" class="nav-cta">צרו קשר</a>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="תפריט">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Slider -->
+    <section class="hero" id="home">
+        <div class="hero-slides">
+            <div class="hero-slide hero-slide-1 active">
+                <div class="hero-slide-bg"></div>
+                <div class="hero-pattern"></div>
+                <div class="container hero-content">
+                    <div class="hero-inner">
+                        <div class="hero-eyebrow">משרד אהוד שמואל</div>
+                        <h1 class="hero-title">
+                            כשאתם בצומת דרכים<br>
+                            <em>אנחנו לצידכם.</em>
+                        </h1>
+                        <p class="hero-subtitle">
+                            ליווי משפטי מעמיק בתחומי חדלות פירעון, ליטיגציה מסחרית ודיני עבודה.
+                            המומחיות שלנו — הביטחון שלכם להמשיך הלאה.
+                        </p>
+                        <div class="hero-cta-group">
+                            <a href="#contact" class="btn-primary">
+                                ייעוץ ראשוני <i class="fas fa-arrow-left"></i>
+                            </a>
+                            <a href="#practice" class="btn-outline">
+                                תחומי העיסוק
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-slide hero-slide-2">
+                <div class="hero-slide-bg"></div>
+                <div class="hero-pattern"></div>
+                <div class="container hero-content">
+                    <div class="hero-inner">
+                        <div class="hero-eyebrow">ניסיון של שנים בערכאות</div>
+                        <h1 class="hero-title">
+                            ליטיגציה <em>חדה.</em><br>
+                            תוצאות מדידות.
+                        </h1>
+                        <p class="hero-subtitle">
+                            ניהול תיקים מורכבים בבתי המשפט — מסחרי, אזרחי וחדלות פירעון.
+                            אסטרטגיה מדויקת, שליטה בכל פרט, וייצוג בלתי מתפשר.
+                        </p>
+                        <div class="hero-cta-group">
+                            <a href="practice-litigation.html" class="btn-primary">
+                                למידע נוסף <i class="fas fa-arrow-left"></i>
+                            </a>
+                            <a href="#contact" class="btn-outline">תיאום פגישה</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-slide hero-slide-3">
+                <div class="hero-slide-bg"></div>
+                <div class="hero-pattern"></div>
+                <div class="container hero-content">
+                    <div class="hero-inner">
+                        <div class="hero-eyebrow">מובילים בחדלות פירעון</div>
+                        <h1 class="hero-title">
+                            לפתוח דף חדש —<br>
+                            <em>בידיים מקצועיות.</em>
+                        </h1>
+                        <p class="hero-subtitle">
+                            הסדרי חוב, פשיטת רגל ושיקום חברות. אנחנו מלווים יחידים ועסקים
+                            בצמתי המשבר ומציבים אותם מחדש על מסלול של ודאות וצמיחה.
+                        </p>
+                        <div class="hero-cta-group">
+                            <a href="practice-insolvency.html" class="btn-primary">
+                                קראו עוד <i class="fas fa-arrow-left"></i>
+                            </a>
+                            <a href="#contact" class="btn-outline">דברו איתנו</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-indicators">
+            <button class="hero-dot active" aria-label="סליידר 1"></button>
+            <button class="hero-dot" aria-label="סליידר 2"></button>
+            <button class="hero-dot" aria-label="סליידר 3"></button>
+        </div>
+
+        <div class="hero-scroll">
+            <span>גלילה</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrap" data-aos="fade-right">
+                    <div class="about-image"></div>
+                    <div class="about-experience">
+                        <div class="about-experience-num">20+</div>
+                        <div class="about-experience-text">שנות ניסיון בערכאות המשפט</div>
+                    </div>
+                </div>
+                <div class="about-content" data-aos="fade-left">
+                    <div class="section-eyebrow">אודות המשרד</div>
+                    <h2 class="section-title">דין, אסטרטגיה<br>ויחס אישי</h2>
+                    <div class="section-title-decor"></div>
+                    <p>
+                        משרד עורכי הדין של אהוד שמואל הוקם מתוך תפיסה ברורה — שירות משפטי איננו רק ידע בחוק,
+                        אלא היכולת לתרגם אותו לאסטרטגיה מנצחת, בכל סיטואציה ובכל ערכאה.
+                    </p>
+                    <p>
+                        אנו מתמחים בניהול הליכי חדלות פירעון, ליטיגציה מסחרית מורכבת, פשיטות רגל, הסדרי חוב
+                        ודיני עבודה — תוך מתן ייצוג נחרץ, ליווי קרוב ויחס אישי לכל לקוח.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon"><i class="fas fa-balance-scale"></i></div>
+                            <div class="about-feature-text">
+                                <strong>גישה אסטרטגית</strong>
+                                <span>ניתוח מעמיק לכל תיק</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon"><i class="fas fa-handshake"></i></div>
+                            <div class="about-feature-text">
+                                <strong>יחס אישי</strong>
+                                <span>זמינות וזמן איכות לכל לקוח</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon"><i class="fas fa-shield-alt"></i></div>
+                            <div class="about-feature-text">
+                                <strong>שמירה על זכויות</strong>
+                                <span>ייצוג בלתי מתפשר</span>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon"><i class="fas fa-medal"></i></div>
+                            <div class="about-feature-text">
+                                <strong>מומחיות ענפית</strong>
+                                <span>ניסיון מצטבר במאות תיקים</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="btn-primary">
+                        תיאום פגישת ייעוץ <i class="fas fa-arrow-left"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Practice Areas -->
+    <section class="practice section" id="practice">
+        <div class="container">
+            <div class="section-eyebrow">תחומי עיסוק</div>
+            <h2 class="section-title">המומחיות שלנו</h2>
+            <div class="section-title-decor"></div>
+            <div class="practice-grid">
+                <a href="practice-litigation.html" class="practice-card" data-aos="fade-up">
+                    <div class="practice-card-img practice-img-1">
+                        <i class="fas fa-gavel practice-card-icon"></i>
+                    </div>
+                    <div class="practice-card-body">
+                        <div class="practice-card-num">תחום 01</div>
+                        <h3>ליטיגציה מסחרית ואזרחית</h3>
+                        <p>ניהול תיקים משפטיים מורכבים בבתי המשפט המחוזיים, השלום, וערעורים בעליון — תוך התמקדות בצורכי הלקוח וניהול סיכונים.</p>
+                        <span class="practice-card-link">למידע נוסף <i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </a>
+                <a href="practice-insolvency.html" class="practice-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="practice-card-img practice-img-2">
+                        <i class="fas fa-building-shield practice-card-icon"></i>
+                    </div>
+                    <div class="practice-card-body">
+                        <div class="practice-card-num">תחום 02</div>
+                        <h3>חדלות פירעון ושיקום חברות</h3>
+                        <p>ייצוג בכל הליכי הפירוק, הסדרי הנושים והקפאת ההליכים — עם דגש על שיקום עסקי והבראה מבוקרת.</p>
+                        <span class="practice-card-link">למידע נוסף <i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </a>
+                <a href="practice-bankruptcy.html" class="practice-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="practice-card-img practice-img-3">
+                        <i class="fas fa-file-signature practice-card-icon"></i>
+                    </div>
+                    <div class="practice-card-body">
+                        <div class="practice-card-num">תחום 03</div>
+                        <h3>פשיטת רגל והסדרי חוב</h3>
+                        <p>ליווי יחידים בהליכי פשיטת רגל ובניית הסדרי חוב מותאמים — דרך לפתיחת דף חדש בידיים מקצועיות.</p>
+                        <span class="practice-card-link">למידע נוסף <i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </a>
+                <a href="practice-labor.html" class="practice-card" data-aos="fade-up">
+                    <div class="practice-card-img practice-img-4">
+                        <i class="fas fa-people-roof practice-card-icon"></i>
+                    </div>
+                    <div class="practice-card-body">
+                        <div class="practice-card-num">תחום 04</div>
+                        <h3>דיני עבודה</h3>
+                        <p>ייעוץ שוטף לחברות ומעסיקים, ייצוג עובדים בתביעות, חוזי עבודה, פיטורים, הטרדות מיניות וזכויות סוציאליות.</p>
+                        <span class="practice-card-link">למידע נוסף <i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </a>
+                <a href="practice-employee-rights.html" class="practice-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="practice-card-img practice-img-5">
+                        <i class="fas fa-user-shield practice-card-icon"></i>
+                    </div>
+                    <div class="practice-card-body">
+                        <div class="practice-card-num">תחום 05</div>
+                        <h3>זכויות עובדים בפירוק</h3>
+                        <p>מימוש זכויות עובדים מקרן ביטוח לאומי, פיצויי פיטורין, חובות שכר ופנסיה במצבים של חדלות פירעון של המעסיק.</p>
+                        <span class="practice-card-link">למידע נוסף <i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </a>
+                <a href="practice-commercial.html" class="practice-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="practice-card-img practice-img-6">
+                        <i class="fas fa-handshake practice-card-icon"></i>
+                    </div>
+                    <div class="practice-card-body">
+                        <div class="practice-card-num">תחום 06</div>
+                        <h3>משפט מסחרי וחוזים</h3>
+                        <p>עריכת חוזים והסכמים מסחריים, מיזוגים ורכישות, ייעוץ שוטף לחברות וליווי יזמים בעסקאות מורכבות.</p>
+                        <span class="practice-card-link">למידע נוסף <i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Strip -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="zoom-in">
+                    <div class="stat-num" data-count="20" data-suffix="+">0</div>
+                    <div class="stat-label">שנות ניסיון</div>
+                </div>
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="stat-num" data-count="500" data-suffix="+">0</div>
+                    <div class="stat-label">תיקים משפטיים</div>
+                </div>
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="stat-num" data-count="98" data-suffix="%">0</div>
+                    <div class="stat-label">לקוחות מרוצים</div>
+                </div>
+                <div class="stat-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="stat-num" data-count="6">0</div>
+                    <div class="stat-label">תחומי התמחות</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team -->
+    <section class="team section" id="team">
+        <div class="container">
+            <div class="section-eyebrow">הצוות שלנו</div>
+            <h2 class="section-title">המקצוענים מאחורי השם</h2>
+            <div class="section-title-decor"></div>
+            <div class="team-grid">
+                <div class="team-card" data-aos="fade-up">
+                    <div class="team-image" style="--bg-img: url('images/lawyer-ehud-portrait.jpg')"></div>
+                    <h3 class="team-name">עו"ד אהוד שמואל</h3>
+                    <div class="team-role">מייסד ובעלים</div>
+                    <p class="team-bio">מתמחה בליטיגציה מסחרית ובהליכי חדלות פירעון. בעל ניסיון מצטבר של למעלה משני עשורים בייצוג בערכאות השונות.</p>
+                </div>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="team-image" style="--bg-img: url('https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&q=80')"></div>
+                    <h3 class="team-name">עו"ד שירה כהן</h3>
+                    <div class="team-role">ראש מחלקת דיני עבודה</div>
+                    <p class="team-bio">מובילה את המחלקה לדיני עבודה במשרד. מומחיות בייצוג עובדים, יחסי עבודה קיבוציים, ובתביעות מורכבות בבית הדין לעבודה.</p>
+                </div>
+                <div class="team-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="team-image" style="--bg-img: url('https://images.unsplash.com/photo-1556157382-97eda2d62296?w=600&q=80')"></div>
+                    <h3 class="team-name">עו"ד יואב לוי</h3>
+                    <div class="team-role">מחלקת ליטיגציה</div>
+                    <p class="team-bio">מתמחה בניהול תיקים מסחריים מורכבים, סכסוכי בעלי מניות והליכי הקפאת הליכים. בוגר תארים מתקדמים במשפט מסחרי.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Strip -->
+    <section class="cta-strip">
+        <div class="container">
+            <div class="cta-strip-content">
+                <div class="cta-strip-text">
+                    <h3>זקוקים לייעוץ משפטי?</h3>
+                    <p>פגישת ייעוץ ראשונה — הצעד הראשון לפתרון.</p>
+                </div>
+                <a href="#contact" class="btn-light">
+                    קבעו פגישה <i class="fas fa-arrow-left"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Articles -->
+    <section class="articles section" id="articles">
+        <div class="container">
+            <div class="section-eyebrow">מאמרים ועדכונים</div>
+            <h2 class="section-title">מידע משפטי שכדאי להכיר</h2>
+            <div class="section-title-decor"></div>
+            <div class="articles-grid">
+                <a href="article-bankruptcy-guide.html" class="article-card" data-aos="fade-up">
+                    <div class="article-image article-image-1">
+                        <i class="fas fa-file-signature"></i>
+                    </div>
+                    <div class="article-body">
+                        <div class="article-meta">
+                            <span><i class="fas fa-calendar-alt"></i> אפריל 2026</span>
+                            <span><i class="fas fa-folder"></i> פשיטת רגל</span>
+                        </div>
+                        <h3>פשיטת רגל ב-2026: המדריך המעודכן ליחיד</h3>
+                        <p>השינויים בחקיקת חדלות הפירעון, מסלול הצו לשיקום כלכלי, ומה חשוב לדעת לפני שמגישים בקשה.</p>
+                        <span class="article-link">למאמר המלא <i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </a>
+                <a href="article-insolvency-rights.html" class="article-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="article-image article-image-2">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <div class="article-body">
+                        <div class="article-meta">
+                            <span><i class="fas fa-calendar-alt"></i> מרץ 2026</span>
+                            <span><i class="fas fa-folder"></i> זכויות עובדים</span>
+                        </div>
+                        <h3>זכויות עובדים בחברה בפירוק — לאן פונים?</h3>
+                        <p>המעסיק נכנס להליך חדלות פירעון? סקירה של זכויות העובדים, גמלאות הביטוח הלאומי וצעדים מומלצים.</p>
+                        <span class="article-link">למאמר המלא <i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </a>
+                <a href="article-litigation-strategy.html" class="article-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="article-image article-image-3">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <div class="article-body">
+                        <div class="article-meta">
+                            <span><i class="fas fa-calendar-alt"></i> פברואר 2026</span>
+                            <span><i class="fas fa-folder"></i> ליטיגציה</span>
+                        </div>
+                        <h3>אסטרטגיית ליטיגציה: מתי תובעים ומתי מתפשרים?</h3>
+                        <p>שיקולים מקצועיים בבחירת מסלול ההתדיינות, ניהול סיכונים והערכת סיכויי הצלחה — מבט מבפנים.</p>
+                        <span class="article-link">למאמר המלא <i class="fas fa-arrow-left"></i></span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section" id="faq">
+        <div class="container">
+            <div class="section-eyebrow">שאלות ותשובות</div>
+            <h2 class="section-title">שאלות נפוצות</h2>
+            <div class="section-title-decor"></div>
+            <div class="faq-list">
+                <div class="faq-item" data-aos="fade-up">
+                    <button class="faq-question">
+                        <span>מה ההבדל בין הסדר נושים לפשיטת רגל?</span>
+                        <i class="fas fa-plus faq-q-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>הסדר נושים הוא הליך שבו החייב מציע לנושיו תכנית פירעון חלופית, ולרוב נשמרת פעילות העסק. פשיטת רגל היא הליך שיקומי המוביל בסופו לצו הפטר ולמחיקת חובות, אך כרוך בהגבלות משמעותיות בתקופת ההליך. הבחירה בין השניים תלויה במצב הכלכלי, בהיקף החובות וביכולת הפירעון של החייב.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="50">
+                    <button class="faq-question">
+                        <span>תוך כמה זמן ניתן לקבל הפטר בהליך חדלות פירעון?</span>
+                        <i class="fas fa-plus faq-q-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>בהתאם לחוק חדלות פירעון ושיקום כלכלי תשע"ח-2018, משך ההליך הסטנדרטי הוא עד 4 שנים, ובמקרים מסוימים אף קצר יותר. במהלך התקופה החייב משלם תשלום חודשי שנקבע על-ידי הממונה, ובתום ההליך הוא זוכה לצו הפטר ופותח דף חדש.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="100">
+                    <button class="faq-question">
+                        <span>אילו זכויות שמורות לעובד שהמעסיק שלו הפך לחדל פירעון?</span>
+                        <i class="fas fa-plus faq-q-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>עובדים זכאים לתשלומים מקרן הביטוח הלאומי הכוללים: שכר עבודה (עד תקרה), פיצויי פיטורין, פדיון חופשה ודמי הבראה. בנוסף, חוב פנסיוני יכול להיות משולם דרך קופות הפנסיה. חשוב להגיש את הבקשה בזמן ועם הליווי המקצועי הנכון, כדי למקסם את התשלומים שניתן לקבל.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="150">
+                    <button class="faq-question">
+                        <span>כמה עולה ייצוג משפטי במשרד שלכם?</span>
+                        <i class="fas fa-plus faq-q-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>שכר הטרחה משתנה בהתאם לסוג התיק, מורכבותו והיקף העבודה הצפוי. אנו מציעים מספר מודלים: שכר טרחה קבוע, שעתי, או מותנה תוצאה. בפגישת הייעוץ הראשונה אנו מבצעים אבחון מצב, מציגים אסטרטגיה אפשרית, ומציעים הצעת שכר שקופה והוגנת.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="200">
+                    <button class="faq-question">
+                        <span>האם ניתן להיפגש לפגישת ייעוץ ראשונית ללא התחייבות?</span>
+                        <i class="fas fa-plus faq-q-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>בהחלט. אנו מציעים פגישת היכרות וייעוץ ראשוני ללא התחייבות, בה תוכלו להציג את הסוגיה, לקבל אבחנה מקצועית ראשונית ולהבין את האפשרויות העומדות בפניכם. הפגישה ניתנת במשרדנו, בשיחת וידאו או בטלפון — לפי נוחותכם.</p>
+                    </div>
+                </div>
+                <div class="faq-item" data-aos="fade-up" data-aos-delay="250">
+                    <button class="faq-question">
+                        <span>מה אורכו הסטנדרטי של הליך ליטיגציה אזרחי?</span>
+                        <i class="fas fa-plus faq-q-icon"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>הליכים אזרחיים בבית המשפט המחוזי נמשכים, בממוצע, בין שנה לשלוש שנים — תלוי במורכבות התיק, עומס בית המשפט ומספר הצדדים המעורבים. אנו פועלים תמיד למצוא פתרונות יעילים יותר, כולל הליכי גישור ובוררות, כאשר הם מיטיבים עם הלקוח.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container contact-container">
+            <div class="section-eyebrow">צרו קשר</div>
+            <h2 class="section-title">בואו נתחיל את השיחה</h2>
+            <div class="section-title-decor"></div>
+            <div class="contact-card">
+                <div class="contact-card-info">
+                    <h3>פגישת ייעוץ ראשונית</h3>
+                    <p>אנו זמינים עבורכם — מלאו את הטופס ונחזור אליכם בתוך שעות ספורות.</p>
+                    <div class="contact-card-details">
+                        <div class="contact-detail-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <strong>טלפון</strong>
+                                03-1234567
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>דוא"ל</strong>
+                                office@es-law.co.il
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <strong>כתובת</strong>
+                                M TOWER, רחוב פריאר 9, באר שבע
+                            </div>
+                        </div>
+                        <div class="contact-detail-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <strong>שעות פעילות</strong>
+                                א'-ה' 09:00-18:00
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-card-social">
+                        <a href="#" aria-label="פייסבוק"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="לינקדאין"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="ווטסאפ"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="contact-card-form">
+                    <div class="form-progress">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="progressFill"></div>
+                        </div>
+                        <div class="progress-labels">
+                            <span class="progress-label active" data-step="1">פרטים אישיים</span>
+                            <span class="progress-label" data-step="2">תחום הפנייה</span>
+                            <span class="progress-label" data-step="3">הודעה</span>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-step-content active" id="formStep1">
+                            <div class="form-group">
+                                <label for="name">שם מלא *</label>
+                                <input type="text" id="name" name="name" required placeholder="הקלידו את שמכם המלא">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">טלפון *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="050-0000000">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">דוא"ל</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com">
+                            </div>
+                        </div>
+
+                        <div class="form-step-content" id="formStep2">
+                            <h4 class="step-title">באיזה תחום נוכל לסייע?</h4>
+                            <div class="service-select-grid">
+                                <label class="service-select-item">
+                                    <input type="checkbox" name="services" value="litigation">
+                                    <div class="service-select-box">
+                                        <i class="fas fa-gavel"></i>
+                                        <span>ליטיגציה</span>
+                                    </div>
+                                </label>
+                                <label class="service-select-item">
+                                    <input type="checkbox" name="services" value="insolvency">
+                                    <div class="service-select-box">
+                                        <i class="fas fa-building-shield"></i>
+                                        <span>חדלות פירעון</span>
+                                    </div>
+                                </label>
+                                <label class="service-select-item">
+                                    <input type="checkbox" name="services" value="bankruptcy">
+                                    <div class="service-select-box">
+                                        <i class="fas fa-file-signature"></i>
+                                        <span>פשיטת רגל</span>
+                                    </div>
+                                </label>
+                                <label class="service-select-item">
+                                    <input type="checkbox" name="services" value="labor">
+                                    <div class="service-select-box">
+                                        <i class="fas fa-people-roof"></i>
+                                        <span>דיני עבודה</span>
+                                    </div>
+                                </label>
+                                <label class="service-select-item">
+                                    <input type="checkbox" name="services" value="commercial">
+                                    <div class="service-select-box">
+                                        <i class="fas fa-handshake"></i>
+                                        <span>מסחרי</span>
+                                    </div>
+                                </label>
+                                <label class="service-select-item">
+                                    <input type="checkbox" name="services" value="other">
+                                    <div class="service-select-box">
+                                        <i class="fas fa-question-circle"></i>
+                                        <span>אחר</span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="form-step-content" id="formStep3">
+                            <div class="form-group">
+                                <label for="message">פרטו במה נוכל לסייע</label>
+                                <textarea id="message" name="message" rows="5" placeholder="כתבו כאן את ההודעה שלכם..."></textarea>
+                            </div>
+                        </div>
+
+                        <div class="form-actions">
+                            <button type="button" class="btn-back" id="formBackBtn" style="display:none;">
+                                <i class="fas fa-arrow-right"></i> חזרה
+                            </button>
+                            <button type="submit" class="btn-submit" id="formSubmitBtn">
+                                המשך <i class="fas fa-arrow-left"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Visit / Location Section -->
+    <section class="visit-section section">
+        <div class="container">
+            <div class="visit-grid">
+                <div class="visit-info" data-aos="fade-right">
+                    <div class="section-eyebrow">איך מגיעים אלינו</div>
+                    <h2 class="section-title">בואו לפגישה במשרד</h2>
+                    <div class="section-title-decor"></div>
+
+                    <ul class="visit-details">
+                        <li>
+                            <span class="visit-icon"><i class="fas fa-map-marker-alt"></i></span>
+                            <div>
+                                <strong>כתובת המשרד</strong>
+                                M TOWER, רחוב פריאר 9, באר שבע
+                            </div>
+                        </li>
+                        <li>
+                            <span class="visit-icon"><i class="far fa-clock"></i></span>
+                            <div>
+                                <strong>שעות פעילות</strong>
+                                ימים א'–ה' &nbsp;|&nbsp; 09:00–18:00<br>
+                                יום ו' &nbsp;|&nbsp; בתיאום מראש
+                            </div>
+                        </li>
+                        <li>
+                            <span class="visit-icon"><i class="fas fa-phone-alt"></i></span>
+                            <div>
+                                <strong>טלפון</strong>
+                                <a href="tel:031234567">03-1234567</a>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="visit-icon"><i class="fas fa-car"></i></span>
+                            <div>
+                                <strong>חניה</strong>
+                                חניון תת-קרקעי במגדל
+                            </div>
+                        </li>
+                    </ul>
+
+                    <div class="visit-cta-row">
+                        <a href="https://waze.com/ul?q=M+Tower+%D7%A4%D7%A8%D7%99%D7%90%D7%A8+9+%D7%91%D7%90%D7%A8+%D7%A9%D7%91%D7%A2" target="_blank" class="visit-cta-btn">
+                            <i class="fas fa-location-arrow"></i> נווטו ב-Waze
+                        </a>
+                        <a href="https://maps.google.com/?q=M+Tower+%D7%A4%D7%A8%D7%99%D7%90%D7%A8+9+%D7%91%D7%90%D7%A8+%D7%A9%D7%91%D7%A2" target="_blank" class="visit-cta-btn outline">
+                            <i class="fas fa-directions"></i> Google Maps
+                        </a>
+                    </div>
+                </div>
+
+                <div class="visit-map" data-aos="fade-left">
+                    <iframe
+                        src="https://maps.google.com/maps?q=M+Tower+%D7%A4%D7%A8%D7%99%D7%90%D7%A8+9+%D7%91%D7%90%D7%A8+%D7%A9%D7%91%D7%A2&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                        allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-mark"><img src="images/logo-mark-transparent.png" alt="לוגו אהוד שמואל"></span>
+                        <span class="logo-text">
+                            <span class="logo-text-main">אהוד שמואל</span>
+                            <span class="logo-text-sub">משרד עורכי דין</span>
+                        </span>
+                    </a>
+                    <p class="footer-about">
+                        משרד עורכי דין מוביל בתחומי חדלות פירעון, ליטיגציה ודיני עבודה.
+                        מחויבים למצוינות מקצועית ולליווי אישי בכל שלב.
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="פייסבוק"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="לינקדאין"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="ווטסאפ"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#" aria-label="אינסטגרם"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links-col">
+                    <h4>תחומי עיסוק</h4>
+                    <ul>
+                        <li><a href="practice-litigation.html">ליטיגציה</a></li>
+                        <li><a href="practice-insolvency.html">חדלות פירעון</a></li>
+                        <li><a href="practice-bankruptcy.html">פשיטת רגל</a></li>
+                        <li><a href="practice-labor.html">דיני עבודה</a></li>
+                        <li><a href="practice-employee-rights.html">זכויות עובדים</a></li>
+                        <li><a href="practice-commercial.html">משפט מסחרי</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4>ניווט</h4>
+                    <ul>
+                        <li><a href="#home">בית</a></li>
+                        <li><a href="#about">אודות</a></li>
+                        <li><a href="#practice">תחומי עיסוק</a></li>
+                        <li><a href="#team">הצוות</a></li>
+                        <li><a href="articles.html">מאמרים</a></li>
+                        <li><a href="#contact">צור קשר</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links-col">
+                    <h4>צרו קשר</h4>
+                    <ul>
+                        <li class="footer-contact-li"><i class="fas fa-phone-alt"></i> <a href="tel:031234567">03-1234567</a></li>
+                        <li class="footer-contact-li"><i class="fas fa-envelope"></i> <a href="mailto:office@es-law.co.il">office@es-law.co.il</a></li>
+                        <li class="footer-contact-li"><i class="fas fa-map-marker-alt"></i> M TOWER, רחוב פריאר 9, באר שבע</li>
+                        <li class="footer-contact-li"><i class="fas fa-clock"></i> א'-ה' 09:00-18:00</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">© 2026 משרד עורכי דין אהוד שמואל. כל הזכויות שמורות.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">תנאי שימוש</a>
+                    <a href="#">מדיניות פרטיות</a>
+                    <a href="#">הצהרת נגישות</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/972501234567" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <button class="accessibility-btn" aria-label="נגישות">
+        <i class="fas fa-universal-access"></i>
+    </button>
+
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
