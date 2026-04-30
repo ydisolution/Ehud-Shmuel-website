@@ -236,18 +236,25 @@ img { max-width: 100%; height: auto; display: block; }
 }
 
 .logo-mark {
+    flex-shrink: 0;
     width: 52px;
     height: 52px;
+    min-width: 52px;
+    max-width: 52px;
     display: flex;
     align-items: center;
     justify-content: center;
     transition: var(--transition);
     overflow: hidden;
+    box-sizing: border-box;
 }
 
 .logo-mark img {
+    display: block;
     width: 100%;
     height: 100%;
+    max-width: 100%;
+    max-height: 100%;
     object-fit: contain;
     filter: drop-shadow(0 2px 4px rgba(0,0,0,0.15));
 }
@@ -939,7 +946,7 @@ img { max-width: 100%; height: auto; display: block; }
     padding: 80px 0;
     background:
         linear-gradient(135deg, rgba(20, 20, 20, 0.92), rgba(0, 0, 0, 0.95)),
-        url('../images/office.jpg') center/cover fixed;
+        url('../images/office.jpg') center/cover no-repeat;
     color: var(--white);
     position: relative;
     overflow: hidden;
@@ -2289,7 +2296,12 @@ img { max-width: 100%; height: auto; display: block; }
     .navbar { padding: 14px 0; }
     .navbar.scrolled { padding: 10px 0; }
     .logo { gap: 10px; }
-    .logo-mark { width: 44px; height: 44px; }
+    .logo-mark {
+        width: 44px;
+        height: 44px;
+        min-width: 44px;
+        max-width: 44px;
+    }
     .logo-text-main { font-size: 0.98rem; }
     .logo-text-sub { font-size: 0.65rem; letter-spacing: 0.6px; }
 
@@ -2528,7 +2540,12 @@ img { max-width: 100%; height: auto; display: block; }
     .section-eyebrow { font-size: 0.66rem; letter-spacing: 2.5px; }
 
     .navbar { padding: 12px 0; }
-    .logo-mark { width: 38px; height: 38px; }
+    .logo-mark {
+        width: 38px;
+        height: 38px;
+        min-width: 38px;
+        max-width: 38px;
+    }
     .logo-text-main { font-size: 0.92rem; }
     .logo-text-sub { font-size: 0.6rem; }
 
